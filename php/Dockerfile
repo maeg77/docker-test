@@ -1,0 +1,3 @@
+FROM php:7.2-fpm
+EXPOSE 9000
+CMD ["php-fpm", "--nodaemonize"]
